@@ -47,7 +47,10 @@ export default class Todo extends Component {
     return (
       <div className="todo__container">
         <div className="todo">
-          <h1 className="app__title">Todo List App</h1>
+          <h1 className="app__title">
+            Todo List App
+            <img className src={this.props.todoPic} alt="" />
+          </h1>
           <div className="todo__submitContainer">
             <input
               type="text"

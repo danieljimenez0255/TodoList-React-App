@@ -20,6 +20,11 @@
   margin-bottom: 60px;
 }
 
+.app__title img {
+  width: 70px;
+  height: 70px;
+}
+
 .todo__submitContainer {
   display: flex;
   justify-content: center;

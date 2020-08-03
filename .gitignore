@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# todos
+/src/Todos.md
+
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +24,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#firebase
+.firebase
+.firebaserc
+firebase.json

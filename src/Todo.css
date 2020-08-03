@@ -1,0 +1,79 @@
+.todo__container {
+  /* border: 1px solid red; */
+  min-height: 101.5vh;
+  width: 70vw;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  align-items: center;
+}
+
+.todo {
+  /* border: 1px solid red; */
+  padding: 20px;
+  border-radius: 30px;
+  min-width: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  min-height: 500px;
+  background-color: #f1ebbb;
+  margin-bottom: 60px;
+}
+
+.todo__submitContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__input {
+  width: 22vw;
+  height: 5vh;
+  margin-right: 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.todo__input:focus {
+  outline: none;
+  border: 2px solid red;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.todo__itemsContainer {
+  text-align: center;
+  margin-top: 20px;
+  /* color: white; */
+  width: 100%;
+}
+
+.todo__item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+}
+
+.todo__itemButton {
+  height: 40px;
+  margin-left: 20px;
+}
+
+.todo__gifContainer {
+  margin: 30px 0;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo__gifContainer img {
+  width: 200px;
+  height: 200px;
+}
